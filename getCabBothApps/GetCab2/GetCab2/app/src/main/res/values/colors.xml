@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc400</color>
+    <color name="colorPrimaryDark">#654904</color>
+    <color name="colorAccent">#76713e</color>
+    <color name="foreground_font">#005c0e</color>
+    <color name="background_font">#a8ffdd00</color>
+    <color name="input_background_font">#96f9ff82</color>
+    <color name="button_font_color">#b6af62</color>
+    <color name="soft_background">#77f5d665</color>
+    <color name="highlighted_fg_font">#008614</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#77f5d665</color>
+</resources>

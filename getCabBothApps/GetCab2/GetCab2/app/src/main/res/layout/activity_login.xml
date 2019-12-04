@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cabs_wallpaper"
+    tools:context=".controller.activities.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_font"
+            android:text="@string/prompt_email"
+            android:textColor="@color/foreground_font"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_background_font"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/foreground_font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/passwordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/background_font"
+            android:text="@string/prompt_password"
+            android:textColor="@color/foreground_font"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_background_font"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/foreground_font"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/remember_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/soft_background"
+            android:text="@string/remember_check"
+            android:textColor="@color/foreground_font"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="onSignInClick"
+            android:text="@string/action_sign_in_short"
+            android:textAllCaps="false"
+            android:textColor="@color/button_font_color"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:id="@+id/register_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:onClick="onRegisterClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/register_clickable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/common_google_signin_btn_text_dark_disabled"
+                android:focusable="auto"
+                android:focusableInTouchMode="true"
+                android:freezesText="false"
+                android:gravity="center_horizontal"
+                android:onClick="onRegisterClick"
+                android:text="@string/prompt_registration"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

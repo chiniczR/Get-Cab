@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cabs_wallpaper"
+    tools:context=".controller.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="top|center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/originLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_font"
+                android:text="Please enter your point of origin"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/originEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/input_background_font"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:textColor="@color/foreground_font"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/destinationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_font"
+                android:text="Please enter your destination"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/destinationEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/input_background_font"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                android:textColor="@color/foreground_font"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/nameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_font"
+                android:text="Please enter your name"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/input_background_font"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/foreground_font"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/phoneLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_font"
+                android:text="Please enter your phone number"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/input_background_font"
+                android:ems="10"
+                android:inputType="phone"
+                android:textColor="@color/foreground_font"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/emailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/background_font"
+                android:text="Please enter your e-mail address"
+                android:textColor="@color/foreground_font"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/emailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/input_background_font"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/foreground_font"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/getCabButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="onGetCabClick"
+                android:text="Get cab!"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="#a2fbffb1"
+                android:textFontWeight="te"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="239dp"
+                tools:layout_editor_absoluteY="615dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

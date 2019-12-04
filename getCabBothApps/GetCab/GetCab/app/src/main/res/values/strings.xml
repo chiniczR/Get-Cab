@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GetCab</string>
+    <string name="trip_exists_dialog_msg">Sorry, looks like this trip already exists in the system.&#xD;Click anywhere to continue.</string>
+    <string name="trip_exists_title">Trip exists</string>
+    <string name="passenger_info_dialog_msg">Sorry, looks like the phone and/or the email you\'ve entered are incorrect.</string>
+    <string name="passenger_info_title">Invalid passenger info</string>
+    <string name="invalid_address_dialog_msg">Sorry, looks like the origin and/or destination addresses you\'ve entered are incorrect.</string>
+    <string name="invalid_address_title">Invalid address</string>
+    <string name="something_wrong_dialog_msg">Sorry, looks like something went wrong... Please try again.</string>
+    <string name="something_wrong_title">Something wrong</string>
+    <string name="trip_added_dialog_msg">Trip request successfully added. A cab will be heading your way very soon!</string>
+    <string name="trip_added_title">Trip added</string>
+</resources>
