@@ -1,4 +1,4 @@
-# get-cab
+# Get Cab
 Free adaptation of the Gett android app.
 
 Screenshots of the app:
