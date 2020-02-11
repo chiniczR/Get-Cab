@@ -1,7 +1,7 @@
 # Get Cab
 Free adaptation of the Gett android app.
 
-Screenshots of the app:
+Screenshots of the app (the passenger's app):
 ![](getCabScreenshots.png)
 
 This app uses Firebase realtime database (NoSQL) to store the information on requested trips and registered cabbies. It should be divided by trips (where newly created Trip objects will be sent/stored) and cabbies (where newly added cabbie accounts - i.e. Cabbie objects - will be sent/stored/verified).
