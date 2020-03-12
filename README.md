@@ -1,5 +1,5 @@
 # Get Cab
-Free adaptation of the Gett android app.
+Liberal adaptation of the Gett android app.
 
 Screenshots of the app (the passenger's app):
 ![](getCabScreenshots.png)
